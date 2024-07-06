@@ -1,0 +1,11 @@
+ports:
+- name: catppuccin-gtk
+  platform: [linux]
+  color: text
+  key: catppuccin-gtk
+  repository:
+    name: aerc
+    url: https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=catppuccin
+    past-maintainers: []
+    current-maintainers: []
+    icon: nixos
