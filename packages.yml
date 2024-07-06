@@ -1,11 +1,28 @@
 ports:
-- name: catppuccin-gtk
-  platform: [linux]
+- name: aerc
+  categories:
+  - key: email_client
+    name: Email Clients
+    description: Applications related to sending and receiving email.
+    emoji: 💌
+  - key: productivity
+    name: Productivity
+    description: Applications that make certain tasks or activities more organised
+      and efficient.
+    emoji: 📖
+  - key: cli
+    name: CLI Tools
+    description: Command-line interface utilities that perform specific tasks, ranging
+      from file management to system monitoring.
+    emoji: 🐚
+  platform: [linux, macos]
   color: text
-  key: catppuccin-gtk
+  key: aerc
   repository:
     name: aerc
-    url: https://search.nixos.org/packages?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=catppuccin
+    url: https://github.com/catppuccin/aerc
+    current-maintainers:
+    - username: Stonks3141
+      name: Stonks3141
+      url: https://github.com/Stonks3141
     past-maintainers: []
-    current-maintainers: []
-    icon: nixos
